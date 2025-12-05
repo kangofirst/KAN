@@ -1,0 +1,44 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page40065769.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^product$ page40420100.html [NC]
+RewriteRule ^product/$ page40420100.html [NC]
+
+RewriteRule ^company$ page40431643.html [NC]
+RewriteRule ^company/$ page40431643.html [NC]
+
+RewriteRule ^contact$ page40436417.html [NC]
+RewriteRule ^contact/$ page40436417.html [NC]
+
+RewriteRule ^system$ page40447298.html [NC]
+RewriteRule ^system/$ page40447298.html [NC]
+
+RewriteRule ^price$ page40457043.html [NC]
+RewriteRule ^price/$ page40457043.html [NC]
+
+RewriteRule ^playgreen6$ page40489383.html [NC]
+RewriteRule ^playgreen6/$ page40489383.html [NC]
+
+RewriteRule ^playgreen12$ page40491747.html [NC]
+RewriteRule ^playgreen12/$ page40491747.html [NC]
+
+RewriteRule ^manitoba$ page40491759.html [NC]
+RewriteRule ^manitoba/$ page40491759.html [NC]
+
+RewriteRule ^superior$ page40498791.html [NC]
+RewriteRule ^superior/$ page40498791.html [NC]
+
+RewriteRule ^error$ page41757425.html [NC]
+RewriteRule ^error/$ page41757425.html [NC]
+
+

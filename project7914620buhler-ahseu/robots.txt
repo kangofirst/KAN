@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow: /page40414625.html
+Disallow: /page40416430.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://buhler-ahs.eu/sitemap.xml
+Sitemap: https://buhler-ahs.eu/sitemap-store.xml
+Host: https://buhler-ahs.eu
